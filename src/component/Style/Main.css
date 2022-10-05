@@ -1,0 +1,36 @@
+.containerded {
+  background-image: url("/public/images/home-shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: contrast(200%);
+}
+
+.home-image img {
+  border-radius: 29px;
+  object-fit: cover;
+  width: 100vh;
+  height: 400px;
+  border: 2px solid white;
+}
+
+span {
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+/* *********************** footer ******************************* */
+.copyrightissue {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.copyrightissue h6 {
+  color: white;
+}
