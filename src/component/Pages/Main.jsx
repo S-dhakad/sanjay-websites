@@ -9,12 +9,11 @@ export default function Main() {
       <div className="containerded">
         <div className="container mt-2">
           <div className="row">
-            <div className="col-lg-7 col-md-7 align-items-center mt-5">
+            <div className="col-lg-7 col-md-6 align-items-center mt-5 menuinfo">
               <div className="title-heading mt-4 py--50">
                 <h1 className="heading text-black">Here I'am Sanjay Dhakad</h1>
                 <p className="pera-title text-light-muted">
-                  Obviously I'm a Web Designer. Web Developer with over 3 years
-                  of experience. Experienced with all stages of the development
+                I am Sanjay Dhakad a frontend web developer and android developer a freelance I am b tech cs student
                 </p>
                 <div className="hero-btn mt-4 pt-2">
                   <NavLink to='//wa.me/+916263817082' target="_blank" className="btn btn-primary rounded me-2 ">
@@ -50,7 +49,7 @@ export default function Main() {
                 className="card public-profile border-0 rounded shadow"
                 style={{ zIndex: "1" }}
               >
-                <div className="card-body">
+                <div className="card-body information">
                   <div className="row align-items-center">
                     <div className="col-lg-3 col-md-4 text-md-start p-0">
                       <div className="about-details key-feature bg-light">
@@ -88,7 +87,7 @@ export default function Main() {
                           </h4>
                           <p className="text-light-muted mt-2">
                             Obviously I'm a Web Designer. Web Developer with
-                            over 3 years of experience. Experienced with all
+                            over 1 years of experience. Experienced with all
                             stages of the development cycle for dynamic web
                             projects. The as opposed to using 'Content here,
                             content here', making it look like readable English.
@@ -103,8 +102,11 @@ export default function Main() {
           </div>
         </div>
       </div>
+      <div class="main">
+  <div class="circle"></div>
+</div>
       {/* *******Work *************************************** */}
-      <Work />
+   
     </>
   );
 }

@@ -29,8 +29,40 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #872039;
 }
 .copyrightissue h6 {
   color: white;
+ font-family: cursive;
 }
+.information{
+  box-shadow: 0 4px 30px rgb(100 108 205 / 92%);
+}
+.information:hover{
+border-radius: 10px;
+box-shadow: 0 4px 30px #aa4961;
+}
+.list-unstyled li a:hover {
+  color: #872039;
+}
+
+
+.menuinfo:hover{
+  box-shadow: 0 4px 30px rgb(100 108 205 / 92%);
+  border-radius: 100px;
+  padding: 4rem;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+ 
+  .information{
+    box-shadow: none!important; 
+  }
+  .shadow{
+    box-shadow: none!important;  
+  }
+}
+

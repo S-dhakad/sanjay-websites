@@ -1,8 +1,7 @@
 import React from "react";
 import "../Style/Nav.css";
 import { NavLink } from "react-router-dom";
-import { BsLinkedin, BsWhatsapp, BsTelephoneInbound } from "react-icons/bs";
-import { BiMailSend } from "react-icons/bi";
+
 export default function Footer() {
   return (
     <>
@@ -10,7 +9,7 @@ export default function Footer() {
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 text-center">
-              <span class="text-primary border-0">Code With S.D</span>
+              <span class="text-primary border-0">Code With  MR S.D</span>
 
               <p class="para-desc mx-auto mt-5 text-black">
                 Obviously I'm a Web Designer. Experienced with all stages of the
@@ -23,7 +22,7 @@ export default function Footer() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <BsLinkedin size={25} />
+                  <i class="fab fa-linkedin fa-lg"></i>
                   </NavLink>
                 </li>
                 <li class="list-inline-item mx-2">
@@ -32,12 +31,12 @@ export default function Footer() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <BsWhatsapp size={25} />
+                   <i class="fab fa-whatsapp fa-lg"></i>
                   </NavLink>
                 </li>
                 <li class="list-inline-item mx-2">
                   <NavLink to="tel:+916263817082" class="rounded-circle">
-                    <BsTelephoneInbound size={25} />
+                  <i class="fad fa-phone-alt fa-lg"></i>
                   </NavLink>
                 </li>
                 <li class="list-inline-item mx-2">
@@ -45,7 +44,7 @@ export default function Footer() {
                     to="mailto:mrsanjaydhakad986@gmail.com"
                     class="rounded-circle"
                   >
-                    <BiMailSend size={30} />
+                <i class="fad fa-envelope-open-text fa-lg"></i>
                   </NavLink>
                 </li>
               </ul>
@@ -54,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="copyrightissue mt-3">
-        <h6>Copyright © 2022 code with S.D </h6>
+        <h6>Copyright © 2022 code with MR S.D </h6>
       </div>
     </>
   );
