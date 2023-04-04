@@ -2,10 +2,16 @@
   margin: 0px;
   padding: 0px ;
   box-sizing: border-box;
-  font-family: cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .darkmode{
   background:black;
   color: rgb(183, 185, 19);
 
+}
+.containerded {
+  background-image: url("/public/images/home-shape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: contrast(200%);
 }

@@ -2,7 +2,7 @@ import React from 'react'
 export default function Work() {
     return (
         <>
-            <section className="cta-full mt-5">
+            <section className="cta-full mt-5 containerded">
                 <div className="container">
                     <div className="row position-relative">
                         <div className="col-lg-8 offset-lg-2 ">
@@ -12,13 +12,10 @@ export default function Work() {
                                         <div className="container-title">
                                             <div className="titles">
                                                 <h4 className="title title-line text-capitalize mb-4">
-                                                    Work Expertise
+                                               Skills
                                                 </h4>
                                             </div>
-                                            <p className="text-light-muted mx-auto width-max mb-0">
-                                                Obviously I'm a Web Designer. Experienced with all stages
-                                                of the development cycle for dynamic web projects.
-                                            </p>
+                                         
                                         </div>
                                     </div>
 

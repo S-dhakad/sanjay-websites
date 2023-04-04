@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/Nav.css";
-import { NavLink } from "react-router-dom";
+import { NavLink,Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -27,25 +27,26 @@ export default function Footer() {
                 </li>
                 <li class="list-inline-item mx-2">
                   <NavLink
-                    to="//wa.me/+916263817082"
-                    rel="noreferrer"
-                    target="_blank"
+                to='//wa.me/+916263817082' target="_blank"
+                 
+                  
                   >
                    <i class="fab fa-whatsapp fa-lg"></i>
                   </NavLink>
                 </li>
                 <li class="list-inline-item mx-2">
-                  <NavLink to="tel:+916263817082" class="rounded-circle">
-                  <i class="fad fa-phone-alt fa-lg"></i>
-                  </NavLink>
+                
+                  <a href="https://instagram.com/mrsanjaydhakad42?igshid=ZDdkNTZiNTM="    rel="noreferrer"
+                    target="_blank"  class="rounded-circle">  <i class="fab fa-instagram-square fa-lg"></i></a>
                 </li>
                 <li class="list-inline-item mx-2">
-                  <NavLink
-                    to="mailto:mrsanjaydhakad986@gmail.com"
+                  <a
+                    href="https://github.com/S-dhakad"
                     class="rounded-circle"
+                    target="_blank"
                   >
-                <i class="fad fa-envelope-open-text fa-lg"></i>
-                  </NavLink>
+            <i class="fab fa-github fa-lg"></i>
+                  </a>
                 </li>
               </ul>
             </div>

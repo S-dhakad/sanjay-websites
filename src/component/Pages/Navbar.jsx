@@ -14,6 +14,7 @@ const handledarkmode = ()=>{
  const bardhandle = ()=>{
   setbars(!bars);
   ref.current.classList.toggle("ulview");
+
  }
 
   return (
@@ -34,7 +35,7 @@ const handledarkmode = ()=>{
 
     <li onClick={()=>bardhandle()} > <Link to="/"> About Me</Link></li>
     <li onClick={()=>bardhandle()} > <Link to="/Resume"> Skill</Link></li>
-    <li onClick={()=>bardhandle()} > <Link to="/"> Projects</Link></li>
+    {/* <li onClick={()=>bardhandle()} > <Link to="*"> Projects</Link></li> */}
     <li onClick={()=>bardhandle()} > <Link to="/Contact">Contact </Link></li>
   </ul>
 
@@ -48,7 +49,7 @@ const handledarkmode = ()=>{
   
     <li onClick={()=>bardhandle()} > <Link to="/"> About Me</Link></li>
     <li onClick={()=>bardhandle()} > <Link to="/Resume"> Skill</Link></li>
-    <li onClick={()=>bardhandle()} > <Link to="/"> Projects</Link></li>
+    {/* <li onClick={()=>bardhandle()} > <Link to="*"> Projects</Link></li> */}
     <li onClick={()=>bardhandle()} > <Link to="/Contact"> Contact</Link></li>
   </ul>
 
